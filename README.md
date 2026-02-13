@@ -31,3 +31,24 @@ ArcGIS handles **data creation, editing, analysis, and publishing**, while this 
    ```bash
    python scripts/arcgis_export.py
 
+python engine/main.py
+Code
+
+---
+
+## ▶️ Quick Start
+
+1. Open the ArcGIS Pro project in `arcgis/aprx/`.
+2. Run geoprocessing tools or ModelBuilder workflows.
+3. Export processed layers using:
+   ```bash
+   python scripts/arcgis_export.py
+Launch the 4D engine:
+
+bash
+python engine/main.py
+Start AR interface:
+
+bash
+npm install
+npm run 
