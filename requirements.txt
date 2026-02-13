@@ -1,0 +1,7 @@
+geopandas
+rasterio
+gdal
+numpy
+pandas
+arcgis
+flask
