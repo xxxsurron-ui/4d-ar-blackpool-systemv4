@@ -23,3 +23,58 @@ SOFTWARE.
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+# ✅ **2. .gitignore**
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# Node / WebXR
+node_modules/
+dist/
+build/
+
+# ArcGIS / GIS
+*.aprx
+*.tbx
+*.gdb/
+*.slpk
+*.lyrx
+*.tif
+*.tiff
+*.las
+*.laz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.kml
+*.kmz
+*.geojson
+*.gpkg
+
+# Large data
+data/raw/
+data/processed/
+data/temporal/
+
+# Unity / Unreal
+Library/
+Temp/
+Logs/
+Build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ZIPs
+*.zip
